@@ -26,7 +26,7 @@ $this->_twig_env->addExtension(new Twig_Extensions_Extension_Largenum());
 ```
 
 ### Usage
-* In your template, do the use the filter as follows
+* In your template, use the filter as follows
 ```
 {{ example_number | largenum_format }}
 ```
